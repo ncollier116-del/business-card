@@ -4,40 +4,24 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>JS Scroll</title>
-    <link rel="stylesheet" href="css/scroll.css">
-    <script src="js/js-scroll.js" defer></script>
+    <meta name="theme-color" content="#315b50">
+    <title>Business Card</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div id="container">
-        <header>
-            <h1>Scroll-activated content</h1>
-        </header>
-        <section class="scroll-container">
-            <div id="content1" class="scroll-element js-scroll fade-in">
-                <h1>Hi there</h1>
+    <main class="page">
+        <article class="business-card" aria-label="Business card preview">
+            <div class="card-art" aria-hidden="true">
+                <img class="portrait portrait-back" src="Me-animation/IMG_1619.PNG" alt="">
+                <img class="portrait portrait-front" src="Me-animation/IMG_1620.PNG" alt="">
             </div>
-        </section>
-        <section class="scroll-container">
-            <div id="content2" class="scroll-element js-scroll slide-left">
-                <h1>What do you think</h1>
+            <div class="card-copy">
+                <p class="card-label">Fine Artist</p>
+                <h1>nikki<br>zines</h1>
+                <p class="card-subtitle">Why not live more creatively?</p>
+                <span class="card-mark" aria-hidden="true"></span>
             </div>
-        </section>
-        <section class="scroll-container">
-            <div id="content3" class="scroll-element js-scroll slide-right">
-                <h1>To this animated content?</h1>
-            </div>
-        </section>
-        <section class="scroll-container">
-            <div id="content4" class="scroll-element js-scroll slide-bottom">
-                <h1>It's cool right?</h1>
-            </div>
-        </section>
-        <section class="scroll-container">
-            <div id="content5" class="scroll-element js-scroll slide-bottom-zig-zag">
-                <h1>Last but not least</h1>
-            </div>
-        </section>
-    </div>
+        </article>
+    </main>
 </body>
 </html>
